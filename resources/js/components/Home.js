@@ -5,6 +5,7 @@ import Header from '../layout/Header'
 import Footer from '../layout/Footer'
 // import { ToastContainer, toast } from 'react-toastify';
 import "../style/index.css";
+import '../style/App.css';
 
 class Home extends React.Component {
 
