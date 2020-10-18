@@ -9,6 +9,8 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 
 import ReactNotifications from 'react-notifications-component'
+import Register from '../register/Register'
+import Login from '../register/Login'
 
 
 class App extends React.Component {
@@ -17,6 +19,8 @@ class App extends React.Component {
             <BrowserRouter>
                 <ReactNotifications/>
                 <Route exact path="/" component={Home}/>
+                <Route path='/keeper_register' component={Register}/>
+                <Route path='/keeper_login' component={Login}/>
             </BrowserRouter>
           );
     }
