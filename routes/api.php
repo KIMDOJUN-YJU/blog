@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::resource('user','SibalController');
-Route::resource('users','UserController');
+Route::resource('users','UsersController');
 Route::resource('tourists','TouristController');
 Route::resource('keepers','KeeperController');
 Route::resource('deliverys','DeliveryController');
